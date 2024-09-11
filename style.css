@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display:inline-flex;
+    align-content: space-between;
+    display: ruby-text;
+}
+header div{
+    margin-right: 10px;
+    align-content:end;
+    text-align: right;
+    
+}
+#header-div2{
+    display: inline-flex;
+    align-items: center;
+}
+#header-div2 div li a{
+    text-decoration: none;
+    color: black;
+}
+#header-div2 div li{
+    display:inline-block;
+    list-style:none;
+}
+#navigation_bar{
+    background-color: black;
+    
+}
+#navigation_bar{
+    padding: 4px;
+}
+#navigation_bar a{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+#navigation_bar b{
+    color: white;
+}
+#main_image{
+    padding-bottom: 10px;
+}
+#scroll{
+    background-color: rgba(221, 214, 214, 0.703);
+}
+#scroll{
+    padding: 40px;
+    width: 100%;
+    display:inline-flex;
+    height: 300px;
+    padding-bottom: 0px;;
+}
+#scroll_div1{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    border-radius: 4px;
+}
+#scroll_div2{
+
+    
+}
+#scroll_div1_div1{
+    display: inline-flex;
+}
+#scroll_div1_div2{
+    display: inline-flex;
+}
+#scroll_div1_div3{
+    display: inline-flex;
+}
+#scroll_2{
+    display: inline-flex;
+}
+#card{
+    display: inline-flex;
+}
+#email{
+    display: inline-flex;
+    width: 94%;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#last_card{
+    display: inline-flex;
+    background-color: grey;
+    width: 100%;
+}
+footer{
+    height: 5vh;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
